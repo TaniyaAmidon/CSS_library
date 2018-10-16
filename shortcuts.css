@@ -1,0 +1,30 @@
+/*Display and positioning*/
+
+/* Center an element*/
+
+div {
+    margin: 0 auto;
+    width: 400px; /*set the to width less than the page width*/
+}
+
+/*overflow*/
+
+div {
+    overflow: hidden; 
+    overflow: scroll;
+    overflow: visible; /*default*/
+}
+
+/*reset default properties*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*rest a box*/
+
+* {
+    box-sizing: border-box; /*overall size of the box doesn't change*/
+}
+
