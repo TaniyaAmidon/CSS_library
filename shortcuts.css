@@ -28,3 +28,26 @@ div {
     box-sizing: border-box; /*overall size of the box doesn't change*/
 }
 
+/*positioning*/
+div {
+    position: static; /*default*/
+    position: relative; /*moves the element relative to static position*/
+    top: 10px;
+    left: 20px;
+
+    position: absolute; /*other elements will ignore this one*/
+    top: 10px;
+    left: 20px;
+
+    position: fixed; /*will not move when scrolling, eg nav bar*/
+    top: 10px;
+    left: 50px;
+}
+
+div {
+    z-index: 2;
+}
+
+div {
+    float: right; /*float can be used to move elements to far end of the page*/
+}
